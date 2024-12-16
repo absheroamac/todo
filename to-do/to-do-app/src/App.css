@@ -1,0 +1,9 @@
+.active {
+  color: white;
+  opacity: 100%;
+}
+
+.nonActive {
+  opacity: 50%;
+  text-decoration: line-through;
+}
