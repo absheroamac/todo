@@ -14,7 +14,6 @@ function App() {
   };
 
   const reducer = (state, action) => {
-    let id = null;
     switch (action.type) {
       case "trackInput":
         return { ...state, input: action.input };
